@@ -70,10 +70,10 @@
     {
       "episode": 9,
       "file": "ep-09.md",
-      "title": "인증 전쟁 — 서드파티 요금제와 fallback으로 살아남기",
+      "title": "토큰이 또 끊겼다 — 인증 무응답을 구조로 막는 법",
       "date": "2026-04-14",
-      "tags": ["트러블슈팅", "OAuth", "인증", "토큰갱신", "fallback", "Codex", "Extra Usage"],
-      "summary": "앤트로픽 서드파티 요금제 전환으로 시작된 인증 장애. 401 에러부터 토큰 갱신 삽질 v1~v6, 3중 안전장치, 그리고 Codex fallback까지. 중단 없는 운영을 향한 사투."
+      "tags": ["토큰인증", "OAuth", "fallback", "아키텍처", "트러블슈팅"],
+      "summary": "토큰 만료로 반복되던 무응답 문제를 임시 땜질이 아니라 구조 변경으로 정리한 과정. 오케스트레이터-워커 이중 구조, delegate-to-claude.sh, codex-cli fallback, sandbox 작업 분리, 메모리 경량화까지."
     }
   ]
 }
